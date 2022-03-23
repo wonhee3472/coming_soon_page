@@ -79,3 +79,29 @@ p {
   font-weight: bold;
   font-style: normal;
 }
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px;
+}
+
+input[type="text"] {
+  width: 75%;
+  height: 50px;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+
+input[type="submit"] {
+  width: 20%;
+  height: 50px;
+  box-sizing: border-box;
+  background-color: rgb(44, 42, 42);
+  font-family: "AdiHaus";
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
+}
